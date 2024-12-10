@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,  // This ensures that file name casing is respected
+    "outDir": "./dist",
+    "baseUrl": "./src",  // Ensure the base URL points to the 'src' folder
+    "paths": {
+      "*": ["node_modules/*"]
+    }
+  },
+  "include": ["src/**/*"],  // This should match your directory structure
+  "exclude": ["node_modules"]
+}
